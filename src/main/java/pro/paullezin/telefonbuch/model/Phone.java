@@ -30,9 +30,9 @@ public class Phone extends BaseEntity {
 
     @NotNull
     @Column(name = "number", nullable = false)
-    private int number;
+    private String number;
 
-    public Phone(Integer id, Person person, Integer code, Integer number) {
+    public Phone(Integer id, Person person, Integer code, String number) {
         super(id);
         this.person = person;
         this.code = code;
