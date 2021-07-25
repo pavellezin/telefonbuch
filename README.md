@@ -1,15 +1,15 @@
-##Testaufgabe von Pavel Lezin
+### Testaufgabe von Pavel Lezin
 
 ----------------------------
 
-###Aufgabe:
+### Aufgabe:
 
 Baue für uns ein kleines Telefonbuch.
 Es soll möglich sein in einem Web-Anwendung alle Telefonbuch-Einträge zu sehen. Neue Einträge hinzuzufügen, Einträge ändern, Einträge löschen. (CRUD-Anwendung)
 Außerdem soll man einen Eintrag suchen können.
 Die Funktionalität reicht, es muss nicht optisch ansprechend sein.
 
-###Voraussetzungen:
+### Voraussetzungen:
 
 * Web-Applikation
 * SpringBoot-Applikation mit H2-DB
@@ -36,7 +36,7 @@ Die Funktionalität reicht, es muss nicht optisch ansprechend sein.
 
 -----------------------------
 
-###Swagger UI
+### Swagger UI
 
     http://localhost:8080/swagger-ui/
 
