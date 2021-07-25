@@ -18,7 +18,7 @@ Die Funktionalität reicht, es muss nicht optisch ansprechend sein.
 
 ### Installieren:
 
-    git clone https://github.com/pavellezin/telefonbuch
+    git clone https://github.com/pavellezin/telefonbuch.git
 
 ### Ausführung (aus dem Projektverzeichnis):
 
