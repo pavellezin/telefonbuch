@@ -1,4 +1,4 @@
-###Testaufgabe von Pavel Lezin
+##Testaufgabe von Pavel Lezin
 
 ----------------------------
 
@@ -34,11 +34,11 @@ Die Funktionalität reicht, es muss nicht optisch ansprechend sein.
 - JDBC URL: `jdbc:h2:mem:telefonbuch`
 - Fernverbindung URL: `jdbc:h2:tcp://localhost:9092/mem:telefonbuch`
 
-### SoapUI Projekt
-
-Aus dem Projektverzeichnis: `telefonbuch-soapui-project.xml`
-
 -----------------------------
+
+###Swagger UI
+
+    http://localhost:8080/swagger-ui/
 
 ### Person CRUD
 
