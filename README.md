@@ -1,5 +1,7 @@
-Testaufgabe von Pavel Lezin
-----
+###Testaufgabe von Pavel Lezin
+
+----------------------------
+
 ###Aufgabe:
 
 Baue für uns ein kleines Telefonbuch.
@@ -54,5 +56,21 @@ CURL:
     curl -X DELETE 'http://localhost:8080/api/persons/4'
     curl 'http://localhost:8080/api/persons/search/by-name?name=Vlad' -i
 
+
+### Telefon CRUD
+
+
+- <a href="http://localhost:8080/api/phones">Telefonliste</a>
+- <a href="http://localhost:8080/api/phones/1">Telefon 1</a>
+- <a href="http://localhost:8080/api/phones/search/by-number?number=80">Suche nach Nummer: 80</a>
+
+CURL:
+
+    curl 'http://localhost:8080/api/phones' -i
+    curl 'http://localhost:8080/api/phones/1' -i
+    curl -X POST 'http://localhost:8080/api/phones' -H "Content-Type: application/json" -d '{"person":"http://localhost:8080/api/persons/1","code":"49","number":"012345678"}'
+    curl -X PATCH 'http://localhost:8080/api/phones/3' -H "Content-Type: application/json" -d '{"number":"800800200"}'
+    curl -X DELETE 'http://localhost:8080/api/phones/4'
+    curl 'http://localhost:8080/api/phones/search/by-number?number=80' -i
 
 
