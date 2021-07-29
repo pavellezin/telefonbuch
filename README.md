@@ -32,7 +32,7 @@ Die Funktionalität reicht, es muss nicht optisch ansprechend sein.
 - <a href="http://localhost:8082/">H2 console</a>
 - User: `sa`, kein Passwort
 - JDBC URL: `jdbc:h2:mem:telefonbuch`
-- Fernverbindung URL: `jdbc:h2:tcp://localhost:9092/mem:telefonbuch`
+- Remote URL: `jdbc:h2:tcp://localhost:9092/mem:telefonbuch`
 
 -----------------------------
 
